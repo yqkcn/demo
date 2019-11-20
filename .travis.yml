@@ -7,4 +7,7 @@ python:
   - "3.8"
 
 install:
-  - pip install pytest
+  - pip install pipenv
+
+script:
+  - pipenv run python manange.py test
